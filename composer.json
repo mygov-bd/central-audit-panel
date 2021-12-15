@@ -1,5 +1,5 @@
 {
-    "name": "myov/logtracker",
+    "name": "mygov/logtracker",
     "description": "User activity log manager. All kind of database activity will be tracked",
     "type": "package",
     "license": "MIT",
