@@ -13,15 +13,15 @@ User activity log manager. All kind of database activity will be
 
 1. Run the following command to pull in the latest version:
 ```
-    composer require mygov/mygovdetector
+composer require mygov/mygovdetector
 ```
 2. After composer update run this command in your project
 ```
-    php artisan migration
+php artisan migration
 ```
 3. Use this Trait in your model
 ```
-   use Logtrackerable
+use Logtrackerable
 ```
 
 ## License
