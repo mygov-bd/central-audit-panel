@@ -17,7 +17,7 @@ composer require mygov/logtracker
 ```
 2. After composer update run this command in your project
 ```
-php artisan migration
+php artisan migrate
 ```
 3. Use this Trait in your model
 ```
