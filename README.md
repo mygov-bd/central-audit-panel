@@ -13,7 +13,7 @@ User activity log manager. All kind of database activity will be
 
 1. Run the following command to pull in the latest version:
 ```
-composer require mygov/mygovdetector
+composer require mygov/logtracker
 ```
 2. After composer update run this command in your project
 ```
