@@ -11,6 +11,9 @@
 
 User activity log manager. All kind of database activity will be 
 
+<kbd>
+    composer require obd/mygovdetector
+</kbd>
 ## License
 
 The myGov Detector is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
