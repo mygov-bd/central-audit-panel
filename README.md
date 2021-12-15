@@ -24,10 +24,9 @@ User activity log manager. All kind of database activity will be
 </code>
 
 3. Use this Trait in your model
-
-.. <code>
+```
     Logtrackerable
-   </code>
+```
 
 ## License
 
