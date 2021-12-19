@@ -11,34 +11,35 @@
 
 User activity log manager. All kind of database activity will be 
 
-### 1. Run the following command to pull in the latest version:
+### Run the following command to pull in the latest version:
 
-    ```
-    composer require mygov/logtracker
-    ```
+```
+composer require mygov/logtracker
+```
 
-### 2. Lumen only
+### Lumen only
 
-    Register the provider in your boostrap app file bootstrap/app.php
+Register the provider in your boostrap app file bootstrap/app.php
 
-    Add the following line in the "Register Service Providers" section at the bottom of the file.
+Add the following line in the "Register Service Providers" section at the bottom of the file.
 
-    ```
-    $app->register(\myGov\Logtracker\LogtrackerServiceProvider::class);
-    ```
-    For facades, uncomment <code>$app->withFacades();</code> in your boostrap app file <code>bootstrap/app.php</code>
+```
+$app->register(\myGov\Logtracker\LogtrackerServiceProvider::class);
+```
 
-### 3. After composer update run this command in your project
+For facades, uncomment ```$app->withFacades();``` in your boostrap app file ```bootstrap/app.php```
 
-    ```
-    php artisan migrate
-    ```
+### After composer update run this command in your project
 
-4. Use this Trait in your model
+```
+php artisan migrate
+```
 
-    ```
-    use Logtrackerable
-    ```
+### Use this Trait in your model
+
+```
+use Logtrackerable
+```
 
 ## License
 
