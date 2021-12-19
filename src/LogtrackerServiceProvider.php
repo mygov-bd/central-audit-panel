@@ -3,7 +3,7 @@
 namespace myGov\Logtracker;
 
 use Illuminate\Support\ServiceProvider;
-use myGov\Logtracker\EventServiceProvider;
+use Illuminate\Events\EventServiceProvider;
 
 class LogtrackerServiceProvider extends ServiceProvider
 {
