@@ -29,8 +29,8 @@ class LoginListener
         // ];
         
         $user_array = [
-            'id' => auth()->user()->id,
-            'name' => auth()->user()->name,
+            'id' => auth()->user()->id ?? '',
+            'name' => auth()->user()->name ?? '',
             'designation' => auth()->user()->designation ?? '',
             'officeNameEng' => auth()->user()->officeNameEng ?? '',
             'officeNameBng' => auth()->user()->officeNameBng ?? ''

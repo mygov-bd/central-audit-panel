@@ -44,12 +44,13 @@ trait Logtrackerable
         // ];
         
         $user_array = [
-            'id' => auth()->user()->id,
-            'name' => auth()->user()->name,
+            'id' => auth()->user()->id ?? '',
+            'name' => auth()->user()->name ?? '',
             'designation' => auth()->user()->designation ?? '',
             'officeNameEng' => auth()->user()->officeNameEng ?? '',
             'officeNameBng' => auth()->user()->officeNameBng ?? ''
         ];
+
         $userInfo = json_encode($user_array);
 
         /** New Data Track when edit */
